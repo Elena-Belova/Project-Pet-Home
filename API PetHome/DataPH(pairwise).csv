@@ -1,0 +1,23 @@
+species ,breed ,gender ,age 
+Собака,abyssian,m ,0
+Собака,indian ,f ,2
+Собака,cockatiel ,,4
+Кошка,indian ,,
+Кошка,cockatiel ,,
+Кошка,german_shepherd ,,0
+Кошка,pitbull ,m ,2
+Кошка,abyssian,f ,4
+,cockatiel ,,2
+,german_shepherd ,m ,4
+,pitbull ,f ,
+,indian ,,0
+,german_shepherd ,f ,
+,pitbull ,,0
+,abyssian,,2
+,indian ,,4
+,cockatiel ,m ,
+Собака,pitbull ,,4
+Собака,abyssian,,
+Собака,indian ,m ,
+Собака,cockatiel ,f ,0
+Собака,german_shepherd ,,2

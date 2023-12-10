@@ -1,0 +1,609 @@
+{
+	"info": {
+		"_postman_id": "9dbb7dc0-c0cf-4f71-a899-e4fc0049d95a",
+		"name": "API PetHome GET запросы",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24878696"
+	},
+	"item": [
+		{
+			"name": "Главная страница",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/app/pets",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"app",
+						"pets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/species",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/species",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/breed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/breed",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"breed"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/sites",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/?page={{page}}&page_size={{page_size}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{page}}"
+						},
+						{
+							"key": "page_size",
+							"value": "{{page_size}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/gender",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/gender/",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"gender",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/pet/petID baron",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/{{id_baron}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						"{{id_baron}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/pet/petID gosha",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/{{id_gosha}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						"{{id_gosha}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/pet/petID mukhtar",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/{{id_mukhtar}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						"{{id_mukhtar}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/pet/petID sam",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/{{id_mukhtar}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						"{{id_mukhtar}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Страница О нас",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://130.193.37.179/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/app/about",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"app",
+						"about"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Страница Контакты",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Referer",
+						"value": "http://158.160.56.133/app/about",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/app/contact",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"app",
+						"contact"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Сортировка Питомцы без дома",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://158.160.56.133/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/?page={{page}}&page_size={{page_size}}&status__code={{status1}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{page}}"
+						},
+						{
+							"key": "page_size",
+							"value": "{{page_size}}"
+						},
+						{
+							"key": "status__code",
+							"value": "{{status1}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Сортировка Счастливчики",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": "http://158.160.56.133/app/pets",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/?page={{page}}&page_size={{page_size}}&status__code={{status2}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{page}}"
+						},
+						{
+							"key": "page_size",
+							"value": "{{page_size}}"
+						},
+						{
+							"key": "status__code",
+							"value": "{{status2}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id_baron",
+			"value": "517d137a-d05e-48bc-b1c0-cfeb09e06f23",
+			"type": "string"
+		},
+		{
+			"key": "id_gosha",
+			"value": "70a41546-3381-4d13-be73-3096ef0cbe0b",
+			"type": "string"
+		},
+		{
+			"key": "id_mukhtar",
+			"value": "a9297832-56e5-4949-9ac6-88b7973e1807",
+			"type": "string"
+		},
+		{
+			"key": "id_sam",
+			"value": "b094a60f-9471-4019-aafe-381128db9814",
+			"type": "string"
+		},
+		{
+			"key": "status1",
+			"value": "out_home",
+			"type": "string"
+		},
+		{
+			"key": "status2",
+			"value": "at_home",
+			"type": "string"
+		}
+	]
+}

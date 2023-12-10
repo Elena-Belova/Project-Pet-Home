@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "a25e508d-36e9-4e76-9d4c-b35d33c73af5",
+		"name": "API PetHome Функция фильтрации",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24878696"
+	},
+	"item": [
+		{
+			"name": "Функция фильтрации Pairwise",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/pet/?page={{page}}&page_size={{page_size}}&species__name={{species}}&breed__code={{breed}}&gender__code={{gender}}&age={{age}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "{{page}}"
+						},
+						{
+							"key": "page_size",
+							"value": "{{page_size}}"
+						},
+						{
+							"key": "species__name",
+							"value": "{{species}}"
+						},
+						{
+							"key": "breed__code",
+							"value": "{{breed}}"
+						},
+						{
+							"key": "gender__code",
+							"value": "{{gender}}"
+						},
+						{
+							"key": "age",
+							"value": "{{age}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "species",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "breed",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "gender",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "age",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
