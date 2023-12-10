@@ -48,11 +48,11 @@
 
 ### API "Дом Питомца"
 
-&#8594; [Коллекция Postman "API PetHome GET запросы"(JSON)](https://github.com/Elena-Belova/API-Testing/blob/d1537f3cbbfeec034ba6767550ae2cedd9492de1/API%20PetHome/API%20PetHome%20GET%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B.postman_collection.json)
+&#8594; [Коллекция Postman "API PetHome GET запросы"(JSON)](https://github.com/Elena-Belova/Project-Pet-Home/blob/3ecf66a2c97d58333eb6c244f83921931319fda5/API%20PetHome/API%20PetHome%20GET%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B.postman_collection.json)
 
-&#8594; [Коллекция Postman "API PetHome Функция фильтрации"(JSON)](https://github.com/Elena-Belova/API-Testing/blob/d1537f3cbbfeec034ba6767550ae2cedd9492de1/API%20PetHome/API%20PetHome%20%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8.postman_collection.json) &#8594; Функция фильтрации-тестовые данные-[Pairwise(csv)](https://github.com/Elena-Belova/API-Testing/blob/d1537f3cbbfeec034ba6767550ae2cedd9492de1/API%20PetHome/DataPH(pairwise).csv)
+&#8594; [Коллекция Postman "API PetHome Функция фильтрации"(JSON)](https://github.com/Elena-Belova/Project-Pet-Home/blob/3ecf66a2c97d58333eb6c244f83921931319fda5/API%20PetHome/API%20PetHome%20%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8.postman_collection.json) &#8594; Функция фильтрации-тестовые данные-[Pairwise(csv)](https://github.com/Elena-Belova/Project-Pet-Home/blob/3ecf66a2c97d58333eb6c244f83921931319fda5/API%20PetHome/DataPH(pairwise).csv)
 
-&#8594; [Окружение Pet Home (JSON)](https://github.com/Elena-Belova/API-Testing/blob/d1537f3cbbfeec034ba6767550ae2cedd9492de1/API%20PetHome/Pet%20Home.postman_environment.json)
+&#8594; [Окружение Pet Home (JSON)](https://github.com/Elena-Belova/Project-Pet-Home/blob/3ecf66a2c97d58333eb6c244f83921931319fda5/API%20PetHome/Pet%20Home.postman_environment.json)
 
 Запросы составлены с использованием ***DevTools***
 <hr>
