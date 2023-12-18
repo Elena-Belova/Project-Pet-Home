@@ -63,3 +63,14 @@
 ![ИКарта ДОМ ПИТОМЦА](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/a557708a-f00e-4340-9382-ca7431fd16dd)
 
 <hr>
+
+**Скриншоты JIRA** (примеры)
+
+![Jira 1](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/c6ec640d-b4f4-43ae-ad35-17797fda7972)
+<hr>
+
+![Jira 2](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/b810dd35-8037-4c2b-afce-6a774a9d6879)
+<hr>
+
+![Jira 3](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/90e56e0a-d403-4a1b-a971-3b496534ee3c)
+<hr>
