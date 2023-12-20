@@ -58,14 +58,31 @@
 Запросы составлены с использованием ***DevTools***
 <hr>
 
-**Интеллект-карта «Дом питомца»** [в pdf](https://github.com/Elena-Belova/Project-Pet-Home/blob/e20ef296b56ec7b0d501868990427581a9d8e2ad/%D0%98%D0%9A%D0%B0%D1%80%D1%82%D0%B0.%20%D0%94%D0%BE%D0%BC%20%D0%9F%D0%B8%D1%82%D0%BE%D0%BC%D1%86%D0%B0.pdf)
+**Скриншоты TestRail** (примеры)
 
-![ИКарта ДОМ ПИТОМЦА](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/a557708a-f00e-4340-9382-ca7431fd16dd)
+<details>
+<summary><em>посмотреть</em> </summary>
+ 
+![TestRail1](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/59d924f3-1347-4d63-8414-17fbfa2cef4c)
+<hr>
+
+![TestRail2](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/0d219fce-272f-4662-b635-a670dc18c8e6)
+<hr>
+
+![TestRail3](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/d51128cb-ffd3-45b5-bda4-f26dd0713922)
+<hr>
+
+![TestRail4](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/d6b7a383-de64-4162-a275-b2dfefb12848)
+
+</details>
 
 <hr>
 
 **Скриншоты JIRA** (примеры)
 
+<details>
+<summary><em>посмотреть</em> </summary>
+ 
 ![Jira 1](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/c6ec640d-b4f4-43ae-ad35-17797fda7972)
 <hr>
 
@@ -73,4 +90,13 @@
 <hr>
 
 ![Jira 3](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/90e56e0a-d403-4a1b-a971-3b496534ee3c)
+
+</details>
+
+<hr>
+
+**Интеллект-карта «Дом питомца»** [в pdf](https://github.com/Elena-Belova/Project-Pet-Home/blob/e20ef296b56ec7b0d501868990427581a9d8e2ad/%D0%98%D0%9A%D0%B0%D1%80%D1%82%D0%B0.%20%D0%94%D0%BE%D0%BC%20%D0%9F%D0%B8%D1%82%D0%BE%D0%BC%D1%86%D0%B0.pdf)
+
+![ИКарта ДОМ ПИТОМЦА](https://github.com/Elena-Belova/Project-Pet-Home/assets/148638077/a557708a-f00e-4340-9382-ca7431fd16dd)
+
 <hr>
